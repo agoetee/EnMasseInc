@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+/*************HEADER SCTION*****************/
 .header{
     width: 100%;
     height: 100vh;
@@ -73,13 +74,42 @@ margin-top: 5px;
  color: #fff;
  font-family: 'Montserrat';
 }
+/**************PURCHASE SECTION****************/
 .purchase{
    display: flex;
    font-family: 'Montserrat';
     width: 100%;
     height: 100vh;
     background: #f2f2f2;
-    padding: 50px 0;
+    padding: 70px 0;
+    position: relative;
+  
+}
+.purchase h2{
+ position: absolute;
+ left: 50%;
+ top: 30px;
+
+}
+.purchase h2::before{
+    content: '';
+    display: block;
+    background: #996515;
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    transform: translate(-60px, 12px);
+
+}
+.purchase h2::after{
+    content: '';
+    display: block;
+    background: #996515;
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    transform: translate(110px, -17px);
+
 }
 .purchase .factor{
     margin: 20px;
