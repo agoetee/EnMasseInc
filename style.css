@@ -31,11 +31,26 @@
     font-family: 'Montserrat';
     font-size: 15px;
     text-transform: uppercase;
+    
 }
+.header nav li a::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background: #996515;
+    margin: auto;
+    transition: 0.5s;
+  }
+ .header nav li a:hover::after{
+width: 100%;
+margin-top: 5px;
+  }
 .header nav .user{
     border-left: 1px solid #fff;
 }
 .header nav .user i{
     margin: 10px;
     color: #fff;
+    cursor: pointer;
 }
