@@ -10,6 +10,7 @@
     background-image: url(/images/siiii.jpg);
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 .header nav{
     padding: 10px 100px;
@@ -53,4 +54,9 @@ margin-top: 5px;
     margin: 10px;
     color: #fff;
     cursor: pointer;
+}
+.header .hero-text{
+ position: absolute;
+ bottom: 300px;
+ left: 100px;
 }
