@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Ultra&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/siiii.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header nav{
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header nav img {
+    width: 100px;
+}
+.header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.header nav .user{
+    border-left: 1px solid #fff;
+}
+.header nav .user i{
+    margin: 10px;
+    color: #fff;
+}
