@@ -153,7 +153,7 @@ margin-top: 5px;
 .for-sale .house-image{
     margin: 20px;
     width: 1100px;
-    /*height: 190px;*/
+   /*height: 190px;*/
     background: #fff;
     text-align: center;
     padding: 20px;
@@ -168,6 +168,7 @@ height: 120px;
 background: #000;
 border-radius: 4px;
 top: -70px;
+
 }
 
 .for-sale .house-image .estate-img img{
@@ -178,11 +179,24 @@ top: -70px;
 .for-sale .house-image .estate-img img:hover{
     transform: scale(1.2);
 }
-.for-sale .house-image .fs-content{
-	
-}
+
 .for-sale .house-image .fs-content h5{
     font-size: 20px;
     color: #996515;
     margin: 20px;
+}
+.for-sale .house-image .fs-content button{
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid #996515;
+    border-radius: 10px;
+    margin: 20px;
+    color: #996515;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.for-sale .house-image .fs-content button:hover{
+    background: #996515;
+    color: #fff;
 }
