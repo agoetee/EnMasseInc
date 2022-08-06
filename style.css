@@ -65,8 +65,11 @@ margin-top: 5px;
     color: #996515;
     font-family:'tapestry';
 }
+.header .hero-text h4 span{
+    color: #fff;
+}
 .header .hero-text p{
-    font-size: 20px;
-    
+    font-size: 20px;   
  color: #fff;
+ font-family: 'Montserrat';
 }
