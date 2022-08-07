@@ -234,6 +234,7 @@ top: -70px;
 /**************FOOTER SECTION******************/
 footer {
     width: 100%;
+    height: 100vh;
     background: #4F5E85;
     color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
