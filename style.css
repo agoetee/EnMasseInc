@@ -65,7 +65,11 @@ margin-top: 5px;
     font-size: 100px;
     color: #996515;
     font-family:'tapestry';
+<<<<<<< Updated upstream
     -webkit-text-stroke: 1px #0285CF;
+=======
+   
+>>>>>>> Stashed changes
 }
 .header .hero-text h4 span{
     color: #fff
