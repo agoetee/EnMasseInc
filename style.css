@@ -142,6 +142,7 @@ margin-top: 5px;
     color: #996515;
     margin: 20px 0;
 }
+
 /***********HOUSE SALE SECTION***************/
 .for-sale{
     display: flex;
@@ -237,6 +238,7 @@ footer {
     background: #4F5E85;
     color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top-left-radius: 50px;
   }
   
   .skonti ul {
