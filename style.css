@@ -230,3 +230,15 @@ top: -70px;
     background: #996515;
     color: #fff;
 }
+/**************FOOTER SECTION******************/
+footer{
+    background: #996515;
+    font-family: 'Poppins';
+    text-align: center;
+    color: #fff;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+
+}
