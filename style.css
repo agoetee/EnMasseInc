@@ -301,6 +301,7 @@ footer {
     align-items: flex-start;
     justify-content: space-between;
     text-transform: capitalize;
+    
   }
   .vik {
     flex-basis: 25%;
